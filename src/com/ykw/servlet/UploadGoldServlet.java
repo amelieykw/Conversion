@@ -78,7 +78,7 @@ public class UploadGoldServlet extends HttpServlet {
 	    		.param("description", autreChamp)
 			    .param("videoName", (String) request.getAttribute("videoName"))
 			    .param("creation_date", request.getAttribute("creation_date").toString())
-			    .param("email", "amelieykw1991@gmail.com"));
+			    .param("email", email));
 	    // send an email for confirming the processing of operation 2 min later
 	    queue.add(TaskOptions.Builder
 	    		.withUrl("/tasks/sendprocessingemail")
