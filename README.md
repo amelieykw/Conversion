@@ -41,3 +41,7 @@ This application is deployed on Google App Engine.
 ## Authors
 
 * **YU Kaiwen (amelieykw)** 
+
+## .gitignore
+
+I put the war/WEB-INF/appengine-web.xml into .gitignore to untrack the appid.
